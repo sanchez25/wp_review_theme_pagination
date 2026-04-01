@@ -1,0 +1,73 @@
+:root{
+    --background: #f9fafc;
+    --header: rgb(32, 31, 31);
+    --content: #fff;
+    --hover: #fcb900;
+    --text: #363c3f;
+    --radius: 3px;
+    --hover-btn: #f6ce60;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+body {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.wp-block-table {max-width: 100%;overflow-x:auto; padding-bottom: 20px;}
+.wp-block-table table {width:100%; border-collapse: collapse; margin-bottom:20px; background: var(--hover); position: relative; z-index: 2; border-radius: var(--radius);}
+.wp-block-table table td { text-align:center; padding:15px; border-bottom: 1px solid var(--header);}
+.wp-block-table table td {color:var(--text);}
